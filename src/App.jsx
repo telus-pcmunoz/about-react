@@ -1,10 +1,10 @@
 import React from "react";
-import ControlledComponent from "./ControlledComponent";
+import SimpleComponent from "./SimpleComponent";
 
 function App() {
   return (
     <>
-      <ControlledComponent />
+      <SimpleComponent />
     </>
   );
 }
