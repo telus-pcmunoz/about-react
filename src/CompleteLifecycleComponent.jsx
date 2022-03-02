@@ -2,6 +2,8 @@ import React from "react"
 import LifecycleComponent from "./LifecycleComponent"
 
 const CompleteLifecycleCompoenent = () => {
+    // When show is true it will mount the component
+    // When show is fall it will unmount the component
     const [show, setShow] = React.useState(true)
 
     const handleClick = () => {
