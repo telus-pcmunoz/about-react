@@ -1,10 +1,10 @@
 import React from "react";
-import CompleteLifecycleCompoenent from "./CompleteLifecycleComponent";
+import ControlledComponent from "./ControlledComponent";
 
 function App() {
   return (
     <>
-      <CompleteLifecycleCompoenent />
+      <ControlledComponent />
     </>
   );
 }
